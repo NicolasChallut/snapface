@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { FormsModule, NgForm, ReactiveFormsModule } from '@angular/forms';
 import { Router, RouterLink } from '@angular/router';
 
@@ -6,7 +6,7 @@ import { Router, RouterLink } from '@angular/router';
   selector: 'app-landing-page',
   standalone: true,
   imports: [
-    RouterLink,
+    
     FormsModule,
     ReactiveFormsModule
     

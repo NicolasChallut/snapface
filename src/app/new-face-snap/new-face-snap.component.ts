@@ -34,8 +34,6 @@ export class NewFaceSnapComponent {
       description: [null,[Validators.required]],
       imageUrl: [null,[Validators.required,Validators.pattern(this.urlRegex)]],
       location: [null]
-    },{
-      updateOn: 'blur'
     });
     this.faceSnapPreview$ = this.snapForm.valueChanges.pipe(
       map(formValue => ({
